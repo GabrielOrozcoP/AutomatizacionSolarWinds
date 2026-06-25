@@ -12,7 +12,7 @@ USUARIO = 'User_Prueba'       # El usuario de SQL (idealmente el de solo lectura
 CONTRASENA = 'Tme031127fv1'    # La contraseña del usuario
 
 # La cadena de conexión (Usa el Driver 17, que es el estándar moderno en Windows)
-connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVIDOR};DATABASE={BASE_DE_DATOS};"Trusted_Connection=yes;"'
+connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SERVIDOR};DATABASE={BASE_DE_DATOS};UID={USUARIO};PWD={CONTRASENA}'
 
 try:
     # ==========================================
