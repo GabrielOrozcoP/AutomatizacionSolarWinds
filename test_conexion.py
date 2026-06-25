@@ -6,7 +6,7 @@ print("Iniciando prueba de conexión a Producción...")
 # 1. CONFIGURA TUS CREDENCIALES AQUÍ
 # ==========================================
 # Cambia estos valores por los reales de tu entorno
-SERVIDOR = 'WIN-JH8ON19H7F9\SOLARWINDS_ORION'          # Pon la IP de tu servidor de producción (PCCEAWA)
+SERVIDOR = '192.168.111.40'          # Pon la IP de tu servidor de producción (PCCEAWA)
 BASE_DE_DATOS = 'SolarWindsOrion'      # El nombre de tu base de datos de producción
 USUARIO = 'User_Prueba'       # El usuario de SQL (idealmente el de solo lectura)
 CONTRASENA = 'Tme031127fv1'    # La contraseña del usuario
